@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ESPImageCell" id="gTV-IL-0wX" customClass="ESPImageCell">
+            <rect key="frame" x="0.0" y="0.0" width="142" height="142"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="142" height="142"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cvn-4g-NTP">
+                        <rect key="frame" x="0.0" y="0.0" width="142" height="142"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cW1-xQ-Z8p">
+                                <rect key="frame" x="0.0" y="0.0" width="142" height="142"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="cW1-xQ-Z8p" secondAttribute="bottom" id="ERt-b8-5Fd"/>
+                            <constraint firstAttribute="trailing" secondItem="cW1-xQ-Z8p" secondAttribute="trailing" id="FLZ-gT-3BK"/>
+                            <constraint firstAttribute="width" secondItem="Cvn-4g-NTP" secondAttribute="height" multiplier="1:1" id="KZ9-BT-Ajk"/>
+                            <constraint firstItem="cW1-xQ-Z8p" firstAttribute="leading" secondItem="Cvn-4g-NTP" secondAttribute="leading" id="NIG-60-BLl"/>
+                            <constraint firstItem="cW1-xQ-Z8p" firstAttribute="top" secondItem="Cvn-4g-NTP" secondAttribute="top" id="f6Z-hq-WDe"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="Cvn-4g-NTP" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="0e6-VY-2pv"/>
+                <constraint firstItem="Cvn-4g-NTP" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="BT4-rR-dRG"/>
+                <constraint firstAttribute="trailing" secondItem="Cvn-4g-NTP" secondAttribute="trailing" id="kZQ-pC-Wpx"/>
+            </constraints>
+            <size key="customSize" width="189" height="142"/>
+            <connections>
+                <outlet property="imageView" destination="cW1-xQ-Z8p" id="OFJ-z8-QNk"/>
+            </connections>
+            <point key="canvasLocation" x="101.5" y="105"/>
+        </collectionViewCell>
+    </objects>
+</document>

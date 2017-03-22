@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44C3781F1E829D4C0088267D /* ESPImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C3781D1E829D4C0088267D /* ESPImageCell.m */; };
+		44C378201E829D4C0088267D /* ESPImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44C3781E1E829D4C0088267D /* ESPImageCell.xib */; };
+		44C70AF41E82355700A0EBC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C70AF31E82355700A0EBC9 /* main.m */; };
+		44C70AF71E82355700A0EBC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C70AF61E82355700A0EBC9 /* AppDelegate.m */; };
+		44C70AFA1E82355700A0EBC9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C70AF91E82355700A0EBC9 /* ViewController.m */; };
+		44C70AFD1E82355700A0EBC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44C70AFB1E82355700A0EBC9 /* Main.storyboard */; };
+		44C70B001E82355700A0EBC9 /* ESPTestImages.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44C70AFE1E82355700A0EBC9 /* ESPTestImages.xcdatamodeld */; };
+		44C70B021E82355700A0EBC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44C70B011E82355700A0EBC9 /* Assets.xcassets */; };
+		44C70B051E82355700A0EBC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44C70B031E82355700A0EBC9 /* LaunchScreen.storyboard */; };
+		D031CABCF38C46C08FC0491F /* libPods-ESPTestImages.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3824ADDC430729C9A7DCB79C /* libPods-ESPTestImages.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		139C8DAB3940CA7FBCDFDB7F /* Pods-ESPTestImages.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESPTestImages.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ESPTestImages/Pods-ESPTestImages.debug.xcconfig"; sourceTree = "<group>"; };
+		3824ADDC430729C9A7DCB79C /* libPods-ESPTestImages.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ESPTestImages.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44C3781C1E829D4C0088267D /* ESPImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPImageCell.h; sourceTree = "<group>"; };
+		44C3781D1E829D4C0088267D /* ESPImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPImageCell.m; sourceTree = "<group>"; };
+		44C3781E1E829D4C0088267D /* ESPImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ESPImageCell.xib; sourceTree = "<group>"; };
+		44C378211E82C9190088267D /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		44C70AEF1E82355700A0EBC9 /* ESPTestImages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESPTestImages.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44C70AF31E82355700A0EBC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44C70AF51E82355700A0EBC9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		44C70AF61E82355700A0EBC9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		44C70AF81E82355700A0EBC9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		44C70AF91E82355700A0EBC9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		44C70AFC1E82355700A0EBC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44C70AFF1E82355700A0EBC9 /* ESPTestImages.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ESPTestImages.xcdatamodel; sourceTree = "<group>"; };
+		44C70B011E82355700A0EBC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44C70B041E82355700A0EBC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44C70B061E82355700A0EBC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8220EDB6D08B701B477306D4 /* Pods-ESPTestImages.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESPTestImages.release.xcconfig"; path = "Pods/Target Support Files/Pods-ESPTestImages/Pods-ESPTestImages.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44C70AEC1E82355600A0EBC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D031CABCF38C46C08FC0491F /* libPods-ESPTestImages.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44C70AE61E82355600A0EBC9 = {
+			isa = PBXGroup;
+			children = (
+				44C70AF11E82355700A0EBC9 /* ESPTestImages */,
+				44C70AF01E82355700A0EBC9 /* Products */,
+				FF981322D4D5609CA50B2DA9 /* Pods */,
+				ADBE7D39312BBE4B7330202F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		44C70AF01E82355700A0EBC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44C70AEF1E82355700A0EBC9 /* ESPTestImages.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44C70AF11E82355700A0EBC9 /* ESPTestImages */ = {
+			isa = PBXGroup;
+			children = (
+				44C378211E82C9190088267D /* Constants.h */,
+				44C70AF51E82355700A0EBC9 /* AppDelegate.h */,
+				44C70AF61E82355700A0EBC9 /* AppDelegate.m */,
+				44C70AF81E82355700A0EBC9 /* ViewController.h */,
+				44C70AF91E82355700A0EBC9 /* ViewController.m */,
+				44C3781C1E829D4C0088267D /* ESPImageCell.h */,
+				44C3781D1E829D4C0088267D /* ESPImageCell.m */,
+				44C3781E1E829D4C0088267D /* ESPImageCell.xib */,
+				44C70AFB1E82355700A0EBC9 /* Main.storyboard */,
+				44C70B011E82355700A0EBC9 /* Assets.xcassets */,
+				44C70B031E82355700A0EBC9 /* LaunchScreen.storyboard */,
+				44C70B061E82355700A0EBC9 /* Info.plist */,
+				44C70AFE1E82355700A0EBC9 /* ESPTestImages.xcdatamodeld */,
+				44C70AF21E82355700A0EBC9 /* Supporting Files */,
+			);
+			path = ESPTestImages;
+			sourceTree = "<group>";
+		};
+		44C70AF21E82355700A0EBC9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44C70AF31E82355700A0EBC9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADBE7D39312BBE4B7330202F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3824ADDC430729C9A7DCB79C /* libPods-ESPTestImages.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF981322D4D5609CA50B2DA9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				139C8DAB3940CA7FBCDFDB7F /* Pods-ESPTestImages.debug.xcconfig */,
+				8220EDB6D08B701B477306D4 /* Pods-ESPTestImages.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44C70AEE1E82355600A0EBC9 /* ESPTestImages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44C70B091E82355700A0EBC9 /* Build configuration list for PBXNativeTarget "ESPTestImages" */;
+			buildPhases = (
+				EDFFC4E7C458225151782202 /* [CP] Check Pods Manifest.lock */,
+				44C70AEB1E82355600A0EBC9 /* Sources */,
+				44C70AEC1E82355600A0EBC9 /* Frameworks */,
+				44C70AED1E82355600A0EBC9 /* Resources */,
+				A0182ABEC246223D33E2C66D /* [CP] Embed Pods Frameworks */,
+				97687684450390BA5E8D2878 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ESPTestImages;
+			productName = ESPTestImages;
+			productReference = 44C70AEF1E82355700A0EBC9 /* ESPTestImages.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44C70AE71E82355600A0EBC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Kate;
+				TargetAttributes = {
+					44C70AEE1E82355600A0EBC9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 44C70AEA1E82355600A0EBC9 /* Build configuration list for PBXProject "ESPTestImages" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44C70AE61E82355600A0EBC9;
+			productRefGroup = 44C70AF01E82355700A0EBC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44C70AEE1E82355600A0EBC9 /* ESPTestImages */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44C70AED1E82355600A0EBC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44C378201E829D4C0088267D /* ESPImageCell.xib in Resources */,
+				44C70B051E82355700A0EBC9 /* LaunchScreen.storyboard in Resources */,
+				44C70B021E82355700A0EBC9 /* Assets.xcassets in Resources */,
+				44C70AFD1E82355700A0EBC9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		97687684450390BA5E8D2878 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ESPTestImages/Pods-ESPTestImages-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0182ABEC246223D33E2C66D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ESPTestImages/Pods-ESPTestImages-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDFFC4E7C458225151782202 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44C70AEB1E82355600A0EBC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44C70B001E82355700A0EBC9 /* ESPTestImages.xcdatamodeld in Sources */,
+				44C70AFA1E82355700A0EBC9 /* ViewController.m in Sources */,
+				44C3781F1E829D4C0088267D /* ESPImageCell.m in Sources */,
+				44C70AF71E82355700A0EBC9 /* AppDelegate.m in Sources */,
+				44C70AF41E82355700A0EBC9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		44C70AFB1E82355700A0EBC9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44C70AFC1E82355700A0EBC9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44C70B031E82355700A0EBC9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44C70B041E82355700A0EBC9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44C70B071E82355700A0EBC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44C70B081E82355700A0EBC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44C70B0A1E82355700A0EBC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 139C8DAB3940CA7FBCDFDB7F /* Pods-ESPTestImages.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ESPTestImages/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = home.ESPTestImages;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		44C70B0B1E82355700A0EBC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8220EDB6D08B701B477306D4 /* Pods-ESPTestImages.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ESPTestImages/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = home.ESPTestImages;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44C70AEA1E82355600A0EBC9 /* Build configuration list for PBXProject "ESPTestImages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44C70B071E82355700A0EBC9 /* Debug */,
+				44C70B081E82355700A0EBC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44C70B091E82355700A0EBC9 /* Build configuration list for PBXNativeTarget "ESPTestImages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44C70B0A1E82355700A0EBC9 /* Debug */,
+				44C70B0B1E82355700A0EBC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		44C70AFE1E82355700A0EBC9 /* ESPTestImages.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				44C70AFF1E82355700A0EBC9 /* ESPTestImages.xcdatamodel */,
+			);
+			currentVersion = 44C70AFF1E82355700A0EBC9 /* ESPTestImages.xcdatamodel */;
+			path = ESPTestImages.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 44C70AE71E82355600A0EBC9 /* Project object */;
+}
